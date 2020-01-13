@@ -1,0 +1,33 @@
+.Buttons {
+  margin: auto;
+  width: 50vw;
+  background-color: rgb(63, 63, 63);
+  border-radius: 10px;
+}
+button {
+  margin: 1vw;
+  margin-top: 1.25vw;
+  width: 8vw;
+  height: 5vw;
+  font-size: 3vw;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: rgb(134, 134, 134);
+  color: white;
+  outline: none;
+}
+#pink {
+  background-color: rgb(173, 42, 60);
+}
+#result {
+  background-color: rgb(56, 171, 209);
+}
+#on {
+  background-color: rgb(65, 148, 69);
+}
+.number {
+  background-color: rgb(179, 179, 179);
+}
+p {
+  font-size: 0.5vw;
+}

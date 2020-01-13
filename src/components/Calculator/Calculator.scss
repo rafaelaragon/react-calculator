@@ -1,0 +1,37 @@
+.Calculator {
+  user-select: none;
+  margin: auto;
+  margin-top: 1vh;
+  padding-top: 5vh;
+  width: 52vw;
+  padding-bottom: 2vh;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(36, 36, 36);
+  box-shadow: 1px 1px 0px #999, 2px 2px 0px #999, 3px 3px 0px #999,
+    4px 4px 0px #999, 5px 5px 0px #999, 6px 6px 0px #999, 7px 7px 0px #999,
+    8px 8px 0px #999, 9px 9px 0px #999, 10px 10px 0px #999;
+  h1 {
+    text-align: left;
+    color: white;
+    margin-left: 1vw;
+    font-style: italic;
+  }
+}
+
+.sorry {
+  animation-name: animation;
+  animation-duration: 1s;
+  animation-fill-mode: inherit;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animation {
+  25% {
+    margin-top: -5vw;
+  }
+  75% {
+    margin-top: 5vw;
+  }
+}
