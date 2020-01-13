@@ -2,7 +2,7 @@
   user-select: none;
   margin: auto;
   margin-top: 1vh;
-  padding-top: 5vh;
+  padding-top: 4vh;
   width: 52vw;
   padding-bottom: 2vh;
   border: 1px solid black;
@@ -33,5 +33,14 @@
   }
   75% {
     margin-top: 5vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Calculator {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 }
