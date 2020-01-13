@@ -401,6 +401,11 @@ class Buttons extends React.Component {
     this.setState({ first: 0 /*, isDecimal: false, decimalCount: 0 */ });
   };
 
+  end = async () => {
+    await this.calculate();
+    this.setState({ operation: "" });
+  };
+
   render() {
     return (
       <div className="Buttons">
@@ -471,7 +476,7 @@ class Buttons extends React.Component {
         </button>
         <button onClick={this.exp}>EXP</button>
         <button onClick={this.setAns}>Ans</button>
-        <button className="icon" id="result" onClick={this.calculate}>
+        <button className="icon" id="result" onClick={this.end}>
           <FaEquals />
         </button>
         <p>&nbsp;</p>
